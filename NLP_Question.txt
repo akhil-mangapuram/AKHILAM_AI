@@ -1,0 +1,27 @@
+Challenges:
+1. Write a function to remove the numbers from the tokens.
+    
+    Note: 
+    - Convert the values to lower case.
+    - Make sure to remove the numbers that are even present within the word.
+
+2. Write a function to remove stopwords and punctuation from the tokens.
+    
+   Note:
+    - Make sure to remove the punctuations that are even present within the word.
+    - The returned tokens must have only alphabetical letters.
+
+3. Write a function to generate bigrams from the tokens.
+    
+    Note:
+    - Use the list returned from remove_puncandstopwords function.
+	
+4. Write a function to generate trigrams from the tokens.
+    
+    Note:
+    - Use the list returned from remove_puncandstopwords function.
+	
+Write a function to generate a list of tuples consisting of word counts for the top 10 words in the tokens.
+    
+    Note:
+    - Use the result of question3
